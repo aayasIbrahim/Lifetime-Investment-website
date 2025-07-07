@@ -1,13 +1,14 @@
-
-import Hero from "./Header/Hero";
+import Hero from "./componets/Hero";
+import Navber from "./componets/Navber";
 
 
 function App() {
   return (
     
-      <section className="bg-black">
+      <div className="">
+        <Navber/> 
         <Hero/>
-      </section>
+      </div>
     
   );
 }

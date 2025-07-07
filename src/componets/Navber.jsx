@@ -1,12 +1,14 @@
 import React from "react";
-import logo from "../assets/header/Logo.png";
-import Emoji from "../assets/header/Frame 4392.png";
+import logo from "../assets/Logo.png";
+import Emoji from "../assets/Frame 4392.png";
 import { FaRegPaperPlane } from "react-icons/fa";
 
-function Nav() {
+function Navber() {
   return (
     <>
-        <nav className="container w-full bg-black flex place-content-between mx-auto">
+    <header className="bg-black">
+      
+        <nav className="container flex place-content-between mx-auto">
           <div className="">
             <img className="w-[291px] h-[94px]" src={logo} alt="" />
           </div>
@@ -29,8 +31,9 @@ function Nav() {
             </div>
           </div>
         </nav>
+    </header>
     </>
   );
 }
 
-export default Nav;
+export default Navber;
