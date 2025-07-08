@@ -6,11 +6,11 @@ import { FaRegPaperPlane } from "react-icons/fa";
 function Navber() {
   return (
     <>
-    <header className="bg-black">
+    <header className="bg-black px-4 ">
       
-        <nav className="container flex place-content-between mx-auto">
+        <nav className="container mx-auto  flex justify-between items-center ">
           <div className="">
-            <img className="w-[291px] h-[94px]" src={logo} alt="" />
+            <img className="w-[102px] h-[38px]" src={logo} alt="" />
           </div>
           <div className="flex items-center">
             <div>

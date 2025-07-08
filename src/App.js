@@ -5,7 +5,7 @@ import Navber from "./componets/Navber";
 function App() {
   return (
     
-      <div className="">
+      <div className="p-[20px]">
         <Navber/> 
         <Hero/>
       </div>
