@@ -4,6 +4,7 @@ import Icon1 from "../assets/2x.png";
 import Icon2 from "../assets/Dollar-4.png";
 import Icon3 from "../assets/Group 2309.png";
 import Icon4 from "../assets/100%.png";
+import OfferEnd from "./offer/OfferEnd";
 
 function OfferSection() {
   return (
@@ -18,7 +19,6 @@ function OfferSection() {
             the stakes with our boldest offer yet:
           </p>
         </div>
-
         <div className="border border-[5px] border-[#1E90FF] rounded rounded-[5px] mt-[40px] ">
           <div className="py-5">
             <OfferContent
@@ -45,6 +45,31 @@ function OfferSection() {
               icon={Icon4}
               alt={`icon 4`}
             />
+          </div>
+        </div>
+        <div>
+          <div className=" px-[125.5px]  py-[20px] flex items-center justify-center bg-[#01BEFE] rounded rounded-[6px] mt-[40px] ">
+            <a
+              href="/"
+              className="font-semibold text-[22px] text-white  leading-[24px] tracking-[0] font-['Titillium_Web'] whitespace-nowrap"
+            >
+              Sign Up Now
+            </a>
+          </div>
+          <p className="mt-[60px] mb-[20px] text-white font-bold text-[30px] leading-[40px] tracking-[0] text-center align-middle font-['Titillium_Web']">
+            OFFER WILL END IN
+          </p>
+          <div className="flex items-center justify-between mt-[20px] mb-[50px]">
+             <OfferEnd
+             value={`23H`}
+             />
+             <OfferEnd
+             value={`56M`}
+             />
+             <OfferEnd
+             value={`12S`}
+             />
+             
           </div>
         </div>
       </div>
