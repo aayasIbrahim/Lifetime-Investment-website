@@ -4,12 +4,12 @@ function HeroLeftContent() {
   return (
      <div className="md:w-[40%]">
           <div className="mt-[31px] mb-[20px] rotate-0 opacity-100 rounded-[5px] border-[3px] border-[#87CEEC] md:mt-[100px]">
-            <p className="font-semibold text-[22px] text-white leading-[38.6px] text-center font-['Titillium_Web']">
+            <p className="font-semibold text-[22px] text-white leading-[38.6px] text-center font-['Titillium_Web'] md:text-[38px] md:leading-[38.6px] md:px-4 md:py-2">
               Let Your Money Work for You
             </p>
           </div>
 
-          <div className="font-bold my-[20px] text-[42px] leading-[44px] text-center align-middle">
+          <div className="font-bold py-[20px] text-[42px] leading-[44px] text-center align-middle md:text-[72px] md:leading-[70px] ">
             <span className="text-[#01BEFE]">
               If there was a way to grow your investments by 40%
             </span>{" "}
