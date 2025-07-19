@@ -51,7 +51,7 @@ function OfferSection() {
          </div>
           </div>
         </div>
-        <div className="md:mt-[50px]">
+        <div className="md:mt-[50px]  ">
           <div className=" px-[125.5px]  py-[20px] flex items-center justify-center bg-[#01BEFE] rounded rounded-[6px] mt-[40px] md:mb-[100px] ">
             <a
               href="/"
@@ -73,7 +73,6 @@ function OfferSection() {
              <OfferEnd
              value={`12S`}
              />
-             
           </div>
         </div>
       </div>

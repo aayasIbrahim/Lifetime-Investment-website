@@ -6,7 +6,7 @@ import HeroLeftContent from "./hero/HeroLeftContent";
 
 function Hero() {
   return (
-    <div className="relative w-full h-auto ">
+    <div className="relative w-full h-auto">
       {/* Background Image */}
       <img
         src={bg}
@@ -25,7 +25,11 @@ function Hero() {
 
         {/* Hero image */}
         <div>
-          <img src={heroimg} alt="Hero" className="md:w-[645.63px] md:mt-[20%]" />
+          <img
+            src={heroimg}
+            alt="Hero"
+            className="md:w-[645.63px] md:mt-[20%]"
+          />
         </div>
 
         {/* Offer section */}
