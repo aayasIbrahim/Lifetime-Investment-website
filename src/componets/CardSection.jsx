@@ -1,7 +1,7 @@
 import React from "react";
 import Bg from "../assets/Why Bg.png";
-
 import CardTopContent from "./cards/CardTopContent";
+import CardBottomContent from "./cards/CardBottomContent";
 
 function CardSection() {
   return (
@@ -23,11 +23,9 @@ function CardSection() {
           Wealth
         </h2>
 
-        <CardTopContent/>
-        <h2>
-
-        </h2>
-
+        <CardTopContent />
+        <CardBottomContent/>
+        
       </div>
     </section>
   );
