@@ -8,7 +8,7 @@ function ClientSection() {
   return (
     <section className="bg-[#000000] py-10 text-white">
       <div className="container mx-auto px-[30px] ">
-        <h2 class="text-[42px] leading-[44px] font-bold text-center align-middle mt-[70px] mb-[30px]">
+        <h2 class="text-[42px] leading-[44px] font-bold text-center align-middle mt-[70px] mb-[30px] md:mt-[160px] md:mb-[80px] md:text-[72px] leading-[70px]">
           What Our <span className="text-[#1E90FF]"> Clients Say</span>
         </h2>
 
@@ -31,6 +31,11 @@ function ClientSection() {
             country={`United Kingdom`}
             description={`“Using this website I can invest very easily, quickly and simply!”`}
           />
+        </div>
+        <div>
+          <p class="text-[30px] leading-[40px] font-bold text-center align-middle px-[30px] mt-[30px] pb-[100px] md:text-[42px] md:leading-[54px] md:px-0 md:mt-[80px] md:mt-[160px]"> 
+          If there was a way to turn $500 into consistent, passive income with guaranteed growth, would you?
+          </p>
         </div>
       </div>
     </section>
