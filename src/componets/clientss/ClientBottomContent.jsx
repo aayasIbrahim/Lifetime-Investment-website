@@ -26,11 +26,15 @@ export default function ClientBottomContent() {
           text={`Include screenshots of trading account growth`}
         />
       </div>
-      <p class=" font-bold text-[32px] leading-[43px] tracking-normal text-center align-middle mt-[30px] mb-[50px] ">
+      <p class=" font-bold text-[32px] leading-[43px] tracking-normal text-center align-middle mt-[30px] mb-[50px] md:text-[42px] md:leading-[54px] md:mb-[110px] ">
         If there was a way to grow your investments automatically with
         guaranteed results, would you take the first step?
       </p>
-      
+      <div class="flex items-center justify-center gap-[18px] rounded-[6px] p-[20px_40px] opacity-100 bg-[#1E90FF] mt-[50px] mb-[100px] md:w-[70%] md:ms-[15%] ">
+        <p class="font-[Titillium Web] font-semibold text-[22px] leading-[24px] tracking-[0px] text-center md:text-[28px] md:leading-[24px] md:text-center">
+          Experience These Results — Start Your Trial Today
+        </p>
+      </div>
     </div>
   );
 }
