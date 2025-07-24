@@ -1,3 +1,4 @@
+import Benifits from "./componets/Benifits";
 import CardSection from "./componets/CardSection";
 import ClientSection from "./componets/ClientSection";
 import Hero from "./componets/Hero";
@@ -12,6 +13,7 @@ function App() {
       <OfferSection/>
       <CardSection/>
       <ClientSection/>
+      <Benifits/>
     </>
   );
 }

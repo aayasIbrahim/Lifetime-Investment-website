@@ -38,4 +38,4 @@ function HeroOffer() {
   )
 }
 
-export default HeroOffer
+export default HeroOffer;
