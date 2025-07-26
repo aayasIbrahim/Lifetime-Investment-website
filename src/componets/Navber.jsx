@@ -19,7 +19,7 @@ function Navber() {
             <div className="hidden md:flex">
               <a href="/">
                 {" "}
-                <div className="flex items-center justify-center ml-[50px] bg-[#1E90FF] w-[342px] h-[78px] border rounded rounded-lg hover:bg-[#01BEFE]">
+                <div className="flex items-center justify-center ml-[50px] bg-[linear-gradient(90deg,_#87CEEC,_#01BEFE,_#1E90FF)] w-[342px] h-[78px] border rounded rounded-lg hover:bg-[#01BEFE]">
                   <span>
                     <FaRegPaperPlane className="text-white w-[30.57pxpx] h-[25.58px] me-[7px]" />
                   </span>

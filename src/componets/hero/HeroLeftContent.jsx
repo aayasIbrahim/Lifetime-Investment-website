@@ -25,16 +25,16 @@ function HeroLeftContent() {
             </p>
           </div>
 
-          <div className="mt-[40px] flex flex-col justify-between md:flex-row md:items-center">
+          <div className="mt-[40px] flex flex-col justify-between md:flex-row md:items-center  ">
             <a
               href="/"
-              className="font-[Titillium Web] font-semibold text-[22px] leading-[24px] text-center tracking-[0%] text-white px-[40px] py-[20px] bg-[#1E90FF] rounded-[6px]"
+              className="font-[Titillium Web] font-semibold text-[22px] leading-[24px] text-center tracking-[0%] text-white px-[40px] py-[20px] bg-[linear-gradient(180deg,_#87CEEC,_#01BEFE,_#1E90FF)] rounded-[6px]"
             >
               Start Your Free Trial
             </a>
             <a
               href="/"
-              className="font-[Titillium Web] mt-[20px] font-semibold text-[22px] leading-[24px] tracking-[0%] text-[#01BEFE] px-[40px] py-[20px] border border-[3px] border-[#1E90FF] rounded-[6px] text-center hover:bg-[#01BEFE] hover:text-white md:mt-0"
+              className="font-[Titillium Web] mt-[20px] font-semibold text-[22px] leading-[24px] tracking-[0%] text-[#01BEFE] px-[40px] py-[20px] border border-[3px] border-[#1E90FF] rounded-[6px] text-center hover:bg-[linear-gradient(180deg,_#87CEEC,_#01BEFE,_#1E90FF)] text-white md:mt-0"
             >
               Join Free Telegram
             </a>
