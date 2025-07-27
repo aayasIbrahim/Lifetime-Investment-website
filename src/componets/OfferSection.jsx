@@ -8,7 +8,7 @@ import OfferEnd from "./offer/OfferEnd";
 
 function OfferSection() {
   return (
-    <section className="bg-sky-950">
+    <section className="bg-sky-950 font-[titillium]">
       <div className="container mx-auto p-3">
         <div className="mt-[100px] md:mt-[150px] ">
           <h2 class="font-bold text-[42px] text-white leading-[70px] tracking-[0] text-center align-middle font-['Titillium_Web'] md:text-[72px] md:mb-[50px] ">
@@ -52,7 +52,7 @@ function OfferSection() {
           </div>
         </div>
         <div className="md:mt-[50px]  ">
-          <div className=" px-[125.5px]  py-[20px] flex items-center justify-center bg-[#01BEFE] rounded rounded-[6px] mt-[40px] md:mb-[100px] ">
+          <div className=" px-[125.5px]  py-[20px] flex items-center justify-center bg-[linear-gradient(90deg,_#87CEEC,_#01BEFE,_#1E90FF)] rounded rounded-[6px] mt-[40px] md:mb-[100px] ">
             <a
               href="/"
               className="font-semibold text-[22px] text-white  leading-[24px] tracking-[0] font-['Titillium_Web'] whitespace-nowrap md:text-[28px] "

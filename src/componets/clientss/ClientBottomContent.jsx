@@ -30,7 +30,7 @@ export default function ClientBottomContent() {
         If there was a way to grow your investments automatically with
         guaranteed results, would you take the first step?
       </p>
-      <div class="flex items-center justify-center gap-[18px] rounded-[6px] p-[20px_40px] opacity-100 bg-[#1E90FF] mt-[50px] mb-[100px] md:w-[70%] md:ms-[15%] ">
+      <div class="flex items-center justify-center gap-[18px] rounded-[6px] p-[20px_40px] opacity-100 bg-[linear-gradient(90deg,_#87CEEC,_#01BEFE,_#1E90FF)] mt-[50px] mb-[100px] md:w-[70%] md:ms-[15%] ">
         <p class="font-[Titillium Web] font-semibold text-[22px] leading-[24px] tracking-[0px] text-center md:text-[28px] md:leading-[24px] md:text-center">
           Experience These Results — Start Your Trial Today
         </p>

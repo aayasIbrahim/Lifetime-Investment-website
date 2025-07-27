@@ -5,7 +5,7 @@ import ClientBottomContent from "./clientss/ClientBottomContent";
 function ClientSection() {
   return (
     <>
-      <section className="bg-[#000000] py-10 text-white">
+      <section className="bg-[#000000] py-10 text-white font-[titillium]">
         <div className="container mx-auto px-[30px] ">
           <ClientTopContent />
         </div>

@@ -9,7 +9,7 @@ import BenifitslowerPart from "./benfits/BenifitslowerPart";
 
 function Benifits() {
   return (
-    <section className="bg-black py-10 text-white ">
+    <section className="bg-black py-10 text-white font-[titillium]">
       <div className="container mx-auto">
         <h2 className="font-[Titillium Web] font-bold text-[42px] leading-[44px] px-[30px] tracking-[0px] text-center align-middle mt-[100px] mb-[30px] md:text-[72px] md:leading-[70px] md:mt-[150px] md:mb-[80px]">
           <span className="text-[#1E90FF]">Your benefits</span> with LTI

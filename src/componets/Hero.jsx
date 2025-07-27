@@ -6,7 +6,7 @@ import HeroLeftContent from "./hero/HeroLeftContent";
 
 function Hero() {
   return (
-    <div className="relative w-full h-auto">
+    <div className="relative w-full h-auto font-[titillium]">
       {/* Background Image */}
       <img
         src={bg}

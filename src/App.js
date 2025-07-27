@@ -1,6 +1,7 @@
 import Benifits from "./componets/Benifits";
 import CardSection from "./componets/CardSection";
 import ClientSection from "./componets/ClientSection";
+import Expert from "./componets/Expert";
 import Hero from "./componets/Hero";
 import Navber from "./componets/Navber";
 import OfferSection from "./componets/OfferSection";
@@ -14,6 +15,7 @@ function App() {
       <CardSection/>
       <ClientSection/>
       <Benifits/>
+      <Expert/>
     </>
   );
 }

@@ -5,7 +5,7 @@ import CardBottomContent from "./cards/CardBottomContent";
 
 function CardSection() {
   return (
-    <section className="relative w-full h-auto ">
+    <section className="relative w-full h-auto font-[titillium] ">
       {/* Background Image */}
       <img
         src={Bg}
