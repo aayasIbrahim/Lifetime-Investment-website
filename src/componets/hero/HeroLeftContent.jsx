@@ -3,8 +3,8 @@ import React from 'react'
 function HeroLeftContent() {
   return (
      <div className="md:w-[40%]">
-          <div className="mt-[31px] mb-[20px] rotate-0 opacity-100 rounded-[5px] border-[3px] border-[#87CEEC] md:mt-[100px]">
-            <p className="font-semibold text-[22px] text-white leading-[38.6px] text-center font-['Titillium_Web'] md:text-[38px] md:leading-[38.6px] md:px-4 md:py-2">
+          <div className="mt-[31px] mb-[20px] flex justify-center items-center text-center rotate-0 opacity-100 rounded-[5px] border-[3px] border-[#87CEEC] md:mt-[100px] px-[42px] md:px-0">
+            <p className="font-semibold text-[22px] text-white leading-[38.6px] text-center font-['Titillium_Web'] md:text-[38px] md:leading-[38.6px]  md:py-4 md:px-4">
               Let Your Money Work for You
             </p>
           </div>

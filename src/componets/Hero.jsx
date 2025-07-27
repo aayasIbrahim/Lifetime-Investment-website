@@ -18,7 +18,7 @@ function Hero() {
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-sky-950 via-sky-950 to-sky-950 opacity-70"></div>
 
       {/* Main Content */}
-      <div className="relative z-20 container p-3 mx-auto md:flex flex-wrap">
+      <div className="relative z-20 container p-3 mx-auto md:flex flex-wrap px-[32px]">
         {/* Left content */}
 
         <HeroLeftContent />

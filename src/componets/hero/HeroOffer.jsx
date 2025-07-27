@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroOffer() {
   return (
-   <div className="opacity-100 rounded-[10px] border-[5px] px-[20px] md:w-full md:flex justify-between mb-[100px] md:mb-[200px] mt-[50px]">
+   <div className="opacity-100 rounded-[10px] border-[5px] px-[20px] md:w-full md:flex justify-between mb-[100px] md:mb-[200px] mt-[50px] md:mt-[150px]">
           <div className="opacity-100 md:flex items-center justify-center">
             <h3 className="text-white mt-[60px] mb-[30px] rotate-0 opacity-100 font-bold text-[100px] leading-[90px] text-center align-middle font-['Titillium_Web'] md:ms-4">
               20%

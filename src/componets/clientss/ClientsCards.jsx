@@ -12,7 +12,7 @@ export default function ClientsCards({ image, name, country, description }) {
       <p className="text-[22px] leading-[34px] font-normal text-center mt-[10px]">
         {country}
       </p>
-      <p class="text-[22px] leading-[34px] font-normal text-center mt-[20px] mb-[60px] text-center">
+      <p class="text-[22px] leading-[34px] font-normal text-center mt-[20px] mb-[60px] text-center px-9">
         {description}
       </p>
     </div>

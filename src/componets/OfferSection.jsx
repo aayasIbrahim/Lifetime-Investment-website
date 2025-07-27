@@ -9,8 +9,8 @@ import OfferEnd from "./offer/OfferEnd";
 function OfferSection() {
   return (
     <section className="bg-sky-950 font-[titillium]">
-      <div className="container mx-auto p-3">
-        <div className="mt-[100px] md:mt-[150px] ">
+      <div className="container mx-auto py-3">
+        <div className="mt-[100px] md:mt-[150px] px-[30px] ">
           <h2 class="font-bold text-[42px] text-white leading-[70px] tracking-[0] text-center align-middle font-['Titillium_Web'] md:text-[72px] md:mb-[50px] ">
             Ultimate <span className="text-blue-400">Wealth Builder</span> Offer
           </h2>
@@ -19,8 +19,8 @@ function OfferSection() {
             the stakes with our boldest offer yet:
           </p>
         </div>
-        <div className="border border-[5px] border-[#1E90FF] rounded rounded-[5px] mt-[40px] ">
-          <div className="py-5 md:flex md:justify-between md:mt-[10px] md:mx-[32.5px] md:mb-[20px]">
+        <div className="md:px-[3px] px-[30px]">
+          <div className="py-5 md:flex md:justify-between md:mt-[10px] md:mx-[32.5px] border border-[5px] border-[#1E90FF] rounded rounded-[5px] mt-[40px] md:mb-[20px]">
           <div className="md:w-1/2">
               <OfferContent
               heading={`Double Your Deposit Guarantee`}
@@ -51,7 +51,7 @@ function OfferSection() {
          </div>
           </div>
         </div>
-        <div className="md:mt-[50px]  ">
+        <div className="md:mt-[50px] px-[30px] ">
           <div className=" px-[125.5px]  py-[20px] flex items-center justify-center bg-[linear-gradient(90deg,_#87CEEC,_#01BEFE,_#1E90FF)] rounded rounded-[6px] mt-[40px] md:mb-[100px] ">
             <a
               href="/"
@@ -60,10 +60,10 @@ function OfferSection() {
               Sign Up Now
             </a>
           </div>
-          <p className="mt-[60px] mb-[20px] text-white font-bold text-[30px] leading-[40px] tracking-[0] text-center align-middle font-['Titillium_Web'] md:mb-[50px]">
+          <p className="mt-[60px] mb-[20px] text-white font-bold text-[30px] leading-[40px] tracking-[0] text-center align-middle font-['Titillium_Web'] md:mb-[50px] ">
             OFFER WILL END IN
           </p>
-          <div className="flex items-center justify-between mt-[20px] mb-[50px] md:mx-[205px] md:mb-[110px]">
+          <div className="flex items-center justify-between mt-[20px] mb-[50px] md:mx-[205px] md:mb-[110px] ">
              <OfferEnd
              value={`23H`}
              />

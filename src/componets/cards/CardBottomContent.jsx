@@ -5,7 +5,7 @@ function CardBottomContent() {
   return (
     <div className="container mx-auto">
       <div>
-        <h2 className="text-[30px] text-white leading-[40px] font-bold text-center align-middle mt-[50px] mb-[100px] md:text-[42px] md:leading-[54px] md:mt-[80px] md:mb-[170px]">
+        <h2 className="text-[30px] text-white leading-[40px] font-bold text-center align-middle mt-[50px] mb-[100px] md:text-[42px] md:leading-[54px] md:mt-[80px] md:mb-[170px] px-[30px] ">
           If there was a way to grow your investments effortlessly while
           reclaiming your time, would you?
         </h2>
@@ -16,7 +16,7 @@ function CardBottomContent() {
           Past performance is not indicative of future results
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-[100px] md:mb-[170px] md:gap-[24px]">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-[100px] md:mb-[170px] md:gap-[24px] px-[17px] md:px-[20px]">
         <CardOfNum heading={`4,113%`} paragraph={`Total return compound int.`} />
         <CardOfNum heading={`95%`} paragraph={`winning months since 2020.`} />
         <CardOfNum heading={`19.8%`} paragraph={`Gained last month since 2020`} />

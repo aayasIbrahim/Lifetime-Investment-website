@@ -25,9 +25,9 @@ export default function Form() {
   };
 
   return (
-    <div className="p-[40px_30px] gap-5 border-[#87CEEC] border-[5px] rounded-[11px] opacity-100">
-      <form onSubmit={handleSubmit} className="space-y-[30px]">
-        <div className="flex flex-col items-center md:flex-row  md:justify-between gap-[30px]">
+    <div className="">
+      <form onSubmit={handleSubmit} className="space-y-[30px] p-[40px_30px] gap-5 border-[#87CEEC] border-[5px] rounded-[11px] opacity-100">
+        <div className="flex flex-col  md:flex-row  md:justify-between gap-[30px]">
           <div>
             <label
               htmlFor="name"
@@ -42,7 +42,7 @@ export default function Form() {
               onChange={handleChange}
               id="name"
               placeholder="eg: Ayas Ibrahim"
-              className="w-[310px]  placeholder:font-[Poppins] placeholder:font-medium
+              className=" w-full placeholder:font-[Poppins] placeholder:font-medium
              placeholder:text-[14px] placeholder:leading-[150%]
              placeholder:tracking-[1.5%] placeholder:text-gray-400 h-[51px] px-[20px] py-[15px] gap-[10px] border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:text-white focus:ring-blue-200"
             />
@@ -61,13 +61,13 @@ export default function Form() {
               onChange={handleChange}
               id="email"
               placeholder="eg: aayasabraham@gmail.com"
-              className="w-[310px] h-[51px] px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
+              className="w-full px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
              placeholder:text-[14px] placeholder:leading-[150%]
              placeholder:tracking-[1.5%] placeholder:text-gray-400 focus:ring-blue-200"
             />
           </div>
         </div>
-       <div className="flex flex-col items-center md:flex-row  md:justify-between gap-[30px]">
+       <div className="flex flex-col  md:flex-row  md:justify-between gap-[30px]">
          <div>
           <label
             htmlFor="availableData"
@@ -80,7 +80,7 @@ export default function Form() {
             Value={fromData.availableData}
             onChange={handleChange}
             name="availableData"
-            className="w-[310px] h-[51px] px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
+            className="w-full md:w-[200px] px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
              placeholder:text-[14px] placeholder:leading-[150%]
              placeholder:tracking-[1.5%] placeholder:text-gray-400 focus:ring-blue-200"
           >
@@ -116,13 +116,13 @@ export default function Form() {
             id="tel"
             value={fromData.phone}
             placeholder="+880 1XXXXXXXXX"
-            className="w-[310px] h-[51px] px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
+            className="w-full px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
              placeholder:text-[14px] placeholder:leading-[150%]
              placeholder:tracking-[1.5%] placeholder:text-gray-400 focus:ring-blue-200"
           />
         </div>
        </div>
-        <div className="md:w-full">
+        <div className="w-full">
           <label
             htmlFor="message"
             className="block font-[Poppins] font-medium text-[17.68px] leading-[150%] tracking-[1.5%] mb-[10px]"
@@ -135,7 +135,7 @@ export default function Form() {
             name="message"
             value={fromData.message}
             placeholder="Type your message here..."
-            className="md:w-full w-[310px] h-[150px] px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
+            className="w-full h-[160px]  px-[20px] py-[15px] gap-[10px]  placeholder:text-white border border-solid border-gray-300 rounded-[5px] opacity-100 bg-[#3F66B026] outline-none focus:border-[#1E90FF]  placeholder:font-[Poppins] placeholder:font-medium
                  placeholder:text-[14px] placeholder:leading-[150%]
                  placeholder:tracking-[1.5%] placeholder:text-gray-400 focus:ring-blue-200"
           ></textarea>
@@ -143,7 +143,7 @@ export default function Form() {
         <div>
           <button
             type="submit"
-            className="md:w-full w-[310px] h-[64px]  text-white rounded-[6px] 
+            className="w-full  h-[64px] text-white rounded-[6px] 
              font-[Titillium_Web] bg-[linear-gradient(90deg,_#87CEEC,_#01BEFE,_#1E90FF)] font-semibold text-[20px] leading-[24px] tracking-[0%]
              hover:bg-blue-700 transition duration-200 ease-in-out"
           >
