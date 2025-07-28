@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Lifetime-Investment-website/static/css/main.df918922.css",
+    "main.js": "/Lifetime-Investment-website/static/js/main.c2a57a0a.js",
+    "static/js/453.96453769.chunk.js": "/Lifetime-Investment-website/static/js/453.96453769.chunk.js",
+    "static/media/Why Bg.png": "/Lifetime-Investment-website/static/media/Why Bg.b68f91f4cb6d8f27ba0f.png",
+    "static/media/Hero Bg.png": "/Lifetime-Investment-website/static/media/Hero Bg.4b1682652ddfcfa6a137.png",
+    "static/media/hero.png": "/Lifetime-Investment-website/static/media/hero.907b1c9dcf8bec946824.png",
+    "static/media/screenshot-1.png": "/Lifetime-Investment-website/static/media/screenshot-1.b670a08d9ea613bed3af.png",
+    "static/media/support.png": "/Lifetime-Investment-website/static/media/support.7496704b9270eb557b6d.png",
+    "static/media/crypto earning.png": "/Lifetime-Investment-website/static/media/crypto earning.ad8942a543d5da8cda0b.png",
+    "static/media/person 1.png": "/Lifetime-Investment-website/static/media/person 1.d1ed422593f00158dd94.png",
+    "static/media/person 2.png": "/Lifetime-Investment-website/static/media/person 2.599c764fb46a52adf543.png",
+    "static/media/person 3.png": "/Lifetime-Investment-website/static/media/person 3.60ec067ab3e14f33f649.png",
+    "static/media/Logo.png": "/Lifetime-Investment-website/static/media/Logo.6cd2dd0594f9caf89cda.png",
+    "index.html": "/Lifetime-Investment-website/index.html",
+    "main.df918922.css.map": "/Lifetime-Investment-website/static/css/main.df918922.css.map",
+    "main.c2a57a0a.js.map": "/Lifetime-Investment-website/static/js/main.c2a57a0a.js.map",
+    "453.96453769.chunk.js.map": "/Lifetime-Investment-website/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df918922.css",
+    "static/js/main.c2a57a0a.js"
+  ]
+}
