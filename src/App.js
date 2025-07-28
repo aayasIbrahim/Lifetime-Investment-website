@@ -7,15 +7,18 @@ import Navber from "./componets/Navber";
 import OfferSection from "./componets/OfferSection";
 
 function App() {
+  console.log("App component rendered");
   return (
     <>
-      <Navber />
+      <Navber  />
       <Hero />
       <OfferSection/>
       <CardSection/>
       <ClientSection/>
       <Benifits/>
       <Expert/>
+    
+      
     </>
   );
 }

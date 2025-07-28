@@ -5,12 +5,13 @@ import ExperLowerPart from "./expert/ExperLowerPart";
 
 function Expert() {
   return (
+  
     <section className="bg-sky-950 py-3 text-white font-[titillium]">
       <div className="container mx-auto  md:flex-row md:justify-center   mt-[100px] md:mt-0 mb-[100px] md:mb-[170px] ">
         <div className="flex flex-col  px-[30px] md:flex-row  md:mt-[100px]">
-          <div className="flex flex-col items-center  md:items-start md:justify-center">
+          <div className="flex flex-col items-center md:items-start md:justify-center">
             <img src={img} alt="" className="  " />
-            <h2 className="font-titillium font-bold text-[72px] leading-[70px] md:text-left  ms-0  align-middle text-center mt-[50px]  md:mt-[80px]  ">
+            <h2 className="font-titillium font-bold text-[72px] leading-[70px] md:text-left  ms-0  align-middle text-center mt-[50px]  md:mt-[80px] md:pe-9  ">
               Have Questions?{" "}
               <span className="text-[#87CEEC]">Speak to an Expert</span>
             </h2>
@@ -28,7 +29,10 @@ function Expert() {
           <ExperLowerPart />
         </div>
       </div>
+      
     </section>
+   
+    
   );
 }
 
